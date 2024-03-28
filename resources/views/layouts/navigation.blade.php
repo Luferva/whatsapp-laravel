@@ -1,6 +1,6 @@
 <nav class="navbar bg-success navbar-expand">
     <div class="container-fluid">
-        <a class="navbar-brand text-white" href="#"><i class="fa-brands fa-whatsapp"></i> MyWhatsapp</a>
+        <a class="navbar-brand text-white" href="/"><i class="fa-brands fa-whatsapp"></i> MyWhatsapp</a>
         <button class="navbar-toggler" 
                 type="button" 
                 data-bs-toggle="collapse" 
@@ -16,7 +16,7 @@
                       <a class="nav-link text-white" href=""><i class="fa-solid fa-comments"></i> Mensagens</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link text-white" href=""><i class="fa-solid fa-address-book"></i> Contatos</a>
+                      <a class="nav-link text-white" href="{{ route('contacts.list') }}"><i class="fa-solid fa-address-book"></i> Contatos</a>
                   </li>
               </ul>
           </div>
